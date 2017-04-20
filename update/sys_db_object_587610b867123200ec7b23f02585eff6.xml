@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>Team</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>sn_nhl_stats_team</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-20 11:57:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>587610b867123200ec7b23f02585eff6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Team</sys_name>
+        <sys_package display_value="NHL Stats" source="sn_nhl_stats">28f598b067123200ec7b23f02585efa4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NHL Stats">28f598b067123200ec7b23f02585efa4</sys_scope>
+        <sys_update_name>sys_db_object_587610b867123200ec7b23f02585eff6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-20 11:57:34</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="sn_nhl_stats.team_user" name="sn_nhl_stats.team_user">c27610b867123200ec7b23f02585ef8b</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>

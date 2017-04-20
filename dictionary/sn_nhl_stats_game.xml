@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Game" max_length="40" name="sn_nhl_stats_game" type="collection">
+        <element label="Away Team" max_length="32" name="away_team" reference="sn_nhl_stats_team" type="reference"/>
+        <element label="Date" max_length="40" name="date" type="glide_date_time"/>
+        <element label="Home team" max_length="32" name="home_team" reference="sn_nhl_stats_team" type="reference"/>
+        <element label="ID" max_length="40" name="id" type="string"/>
+        <index name="index">
+            <element name="home_team"/>
+        </index>
+        <index name="index2">
+            <element name="away_team"/>
+        </index>
+    </element>
+</database>
